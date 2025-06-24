@@ -1,35 +1,39 @@
-import React from 'react';
-import PortfolioProjectCard from './PortfolioProjectCard';
+import React from "react";
+import PortfolioProjectCard from "./PortfolioProjectCard";
 
 const PortfolioProjects = () => {
   const projects = [
     {
       id: 1,
-      name: 'E-commerce de Ropa',
-      description: 'Plataforma de comercio electrónico con carrito de compras, pasarela de pago y gestión de productos.',
-      tags: ['React', 'TailwindCSS', 'Node.js'],
-      githubLink: 'https://github.com/tuusuario/ecommerce-ropa',
+      name: "Página a mi mejor amiga",
+      description:
+        "Una página web dedicada a mi mejor amiga, con su biografía, fotos y mensajes de amigos.",
+      tags: ["React", "TailwindCSS", "Node.js"],
+      githubLink: "https://github.com/tuusuario/ecommerce-ropa",
     },
     {
       id: 2,
-      name: 'App de Tareas',
-      description: 'Aplicación de lista de tareas con funcionalidades de añadir, eliminar y marcar como completado.',
-      tags: ['React', 'TailwindCSS', 'Firebase'],
-      githubLink: 'https://github.com/tuusuario/app-tareas',
+      name: "App de Tareas",
+      description:
+        "Aplicación de lista de tareas con funcionalidades de añadir, eliminar y marcar como completado.",
+      tags: ["React", "TailwindCSS", "Firebase"],
+      githubLink: "https://github.com/Gekyume23-I/gelda.git",
     },
     {
       id: 3,
-      name: 'Clon de Netflix',
-      description: 'Recreación de la interfaz de usuario de Netflix con React y consumo de API de películas.',
-      tags: ['React', 'TailwindCSS', 'API REST'],
-      githubLink: 'https://github.com/tuusuario/netflix-clone',
+      name: "Clon de Netflix",
+      description:
+        "Recreación de la interfaz de usuario de Netflix con React y consumo de API de películas.",
+      tags: ["React", "TailwindCSS", "API REST"],
+      githubLink: "https://github.com/tuusuario/netflix-clone",
     },
     {
       id: 4,
-      name: 'Dashboard Financiero',
-      description: 'Panel de control interactivo para visualizar datos financieros con gráficos y tablas.',
-      tags: ['React', 'TailwindCSS', 'D3.js'],
-      githubLink: 'https://github.com/tuusuario/dashboard-financiero',
+      name: "Dashboard Financiero",
+      description:
+        "Panel de control interactivo para visualizar datos financieros con gráficos y tablas.",
+      tags: ["React", "TailwindCSS", "D3.js"],
+      githubLink: "https://github.com/tuusuario/dashboard-financiero",
     },
   ];
 
