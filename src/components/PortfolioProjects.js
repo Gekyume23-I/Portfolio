@@ -9,7 +9,7 @@ const PortfolioProjects = () => {
       description:
         "Una página web dedicada a mi mejor amiga, con su biografía, fotos y mensajes de amigos.",
       tags: ["React", "TailwindCSS", "Node.js"],
-      githubLink: "https://github.com/tuusuario/ecommerce-ropa",
+      githubLink: "https://github.com/Gekyume23-I/gelda.git",
     },
     {
       id: 2,
